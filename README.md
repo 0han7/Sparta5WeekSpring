@@ -36,7 +36,7 @@
 * put 기능이 html과 연동이 되질 않아 postman에는 가능하나, 웹 사이트에서의 작동은 구현하지 못했습니다.
 
 ## API 명세서- 일정 관리 시스템
-## 노션 API 명세서 URL : https://giddy-ox-904.notion.site/1114bd51dfda80d18cecd33516e3ea81?v=d519c9f6c1514ce3802b4638bea4c258
+#### 노션 API 명세서 URL : https://giddy-ox-904.notion.site/1114bd51dfda80d18cecd33516e3ea81?v=d519c9f6c1514ce3802b4638bea4c258
 ### 1. 일정 생성
 * URL: /api/schedule
 * Method: POST
@@ -51,9 +51,8 @@
 }
 
 * Response:
-201 Created
-* json<br/>
-
+201 Created<br/>
+  json<br/>
 {<br/>
 "id": 1,<br/>
 "username": "홍길동",<br/>
@@ -68,8 +67,8 @@
 * URL: /api/schedule
 * Method: GET
 * Response:
-200 OK
-* json
+200 OK<br/>
+  json<br/>
 
 [<br/>
 {<br/>
@@ -85,8 +84,8 @@
 ### 3. 일정 수정
 * URL: /api/schedule/{id}
 * Method: PUT
-* Request Body:
-* json<br/>
+* Request Body:<br/>
+  json<br/>
 
 {<br/>
 "username": "홍길동",<br/>
@@ -96,8 +95,8 @@
 }
 
 * Response:
-200 OK
-* json<br/>
+200 OK<br/>
+  json<br/>
 
 {<br/>
 "id": 1,<br/>
