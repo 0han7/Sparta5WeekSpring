@@ -36,23 +36,24 @@
 * put 기능이 html과 연동이 되질 않아 postman에는 가능하나, 웹 사이트에서의 작동은 구현하지 못했습니다.
 
 ## API 명세서- 일정 관리 시스템
+## 노션 API 명세서 URL : https://giddy-ox-904.notion.site/1114bd51dfda80d18cecd33516e3ea81?v=d519c9f6c1514ce3802b4638bea4c258
 ### 1. 일정 생성
 * URL: /api/schedule
 * Method: POST
 * Request Body
 * json<br/>
-  |
+  
 { <br/>
 "username": "홍길동",<br/>
 "password": "비밀번호",<br/>
 "title": "제목",<br/>
 "contents": "내용"<br/>
-}|
+}
 
 * Response:
 201 Created
 * json<br/>
-|
+
 {<br/>
 "id": 1,<br/>
 "username": "홍길동",<br/>
@@ -61,7 +62,7 @@
 "contents": "내용”,<br/>
 "createAt": "등록 시간",<br/>
 "updateAt": "변경된 시간"<br/>
-}|
+}
 
 ### 2. 일정 조회
 * URL: /api/schedule
@@ -69,7 +70,7 @@
 * Response:
 200 OK
 * json
-|
+
 [<br/>
 {<br/>
 "id": 1,<br/>
@@ -79,25 +80,25 @@
 "createAt": "등록 시간",<br/>
 "updateAt": "변경된 시간"<br/>
 }<br/>
-]|
+]
 
 ### 3. 일정 수정
 * URL: /api/schedule/{id}
 * Method: PUT
 * Request Body:
 * json<br/>
-|
+
 {<br/>
 "username": "홍길동",<br/>
 "password": "비밀번호",<br/>
 "title": "제목",<br/>
 "contents": "내용"<br/>
-}|
+}
 
 * Response:
 200 OK
 * json<br/>
-|
+
 {<br/>
 "id": 1,<br/>
 "username": "홍길동",<br/>
@@ -105,7 +106,7 @@
 "title": "제목",<br/>
 "contents": "내용”,<br/>
 "updateAt": "변경된 시간"<br/>
-}|
+}
 
 ### 4. 일정 삭제
 * URL: /api/schedule/{id}
