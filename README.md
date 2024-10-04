@@ -41,7 +41,7 @@
 * URL: /api/schedule
 * Method: POST
 * Request Body
-* 
+  
 json<br/>
 { <br/>
 "username": "홍길동",<br/>
