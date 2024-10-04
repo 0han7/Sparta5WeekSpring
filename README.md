@@ -35,19 +35,19 @@
 ### 3. html (미완)
 * put 기능이 html과 연동이 되질 않아 postman에는 가능하나, 웹 사이트에서의 작동은 구현하지 못했습니다.
 
-
-#API 명세서- 일정 관리 시스템
-###1. 일정 생성
+## API 명세서- 일정 관리 시스템
+### 1. 일정 생성
 * URL: /api/schedule
 * Method: POST
 * Request Body
 * json
+  |
 {
 "username": "홍길동",
 "password": "비밀번호",
 "title": "제목",
 "contents": "내용"
-}
+}|
 
 * Response:
 201 Created
@@ -62,7 +62,7 @@
 "updateAt": "변경된 시간"
 }
 
-###2. 일정 조회
+### 2. 일정 조회
 * URL: /api/schedule
 * Method: GET
 * Response:
@@ -79,7 +79,7 @@
 }
 ]
 
-###3. 일정 수정
+### 3. 일정 수정
 * URL: /api/schedule/{id}
 * Method: PUT
 * Request Body:
@@ -102,7 +102,7 @@
 "contents": "내용”,
 "updateAt": "변경된 시간"
 }
-##4. 일정 삭제
+### 4. 일정 삭제
 * URL: /api/schedule/{id}
 * Method: DELETE
 * Response:
