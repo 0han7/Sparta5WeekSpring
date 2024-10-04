@@ -51,7 +51,8 @@ json<br/>
 }
 
 * Response:
-201 Created<br/>
+201 Created
+
 json<br/>
 {<br/>
 "id": 1,<br/>
@@ -67,7 +68,8 @@ json<br/>
 * URL: /api/schedule
 * Method: GET
 * Response:
-200 OK<br/>
+200 OK
+  
 json<br/>
 [<br/>
 {<br/>
@@ -83,7 +85,8 @@ json<br/>
 ### 3. 일정 수정
 * URL: /api/schedule/{id}
 * Method: PUT
-* Request Body:<br/>
+* Request Body:
+
 json<br/>
 {<br/>
 "username": "홍길동",<br/>
@@ -93,7 +96,8 @@ json<br/>
 }
 
 * Response:
-200 OK<br/>
+200 OK
+  
 json<br/>
 {<br/>
 "id": 1,<br/>
