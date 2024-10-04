@@ -40,27 +40,28 @@
 * URL: /api/schedule
 * Method: POST
 * Request Body
-* json
+* json<br/>
   |
-{
-"username": "홍길동",
-"password": "비밀번호",
-"title": "제목",
-"contents": "내용"
+{ <br/>
+"username": "홍길동",<br/>
+"password": "비밀번호",<br/>
+"title": "제목",<br/>
+"contents": "내용"<br/>
 }|
 
 * Response:
 201 Created
-* json
-{
-"id": 1,
-"username": "홍길동",
-"password": "비밀번호",
-"title": "제목",
-"contents": "내용”,
-"createAt": "등록 시간",
-"updateAt": "변경된 시간"
-}
+* json<br/>
+|
+{<br/>
+"id": 1,<br/>
+"username": "홍길동",<br/>
+"password": "비밀번호",<br/>
+"title": "제목",<br/>
+"contents": "내용”,<br/>
+"createAt": "등록 시간",<br/>
+"updateAt": "변경된 시간"<br/>
+}|
 
 ### 2. 일정 조회
 * URL: /api/schedule
@@ -68,40 +69,44 @@
 * Response:
 200 OK
 * json
-[
-{
-"id": 1,
-"username": "홍길동",
-"title": "제목",
-"contents": "내용”,
-"createAt": "등록 시간",
-"updateAt": "변경된 시간"
-}
-]
+|
+[<br/>
+{<br/>
+"id": 1,<br/>
+"username": "홍길동",<br/>
+"title": "제목",<br/>
+"contents": "내용”,<br/>
+"createAt": "등록 시간",<br/>
+"updateAt": "변경된 시간"<br/>
+}<br/>
+]|
 
 ### 3. 일정 수정
 * URL: /api/schedule/{id}
 * Method: PUT
 * Request Body:
-* json
-{
-"username": "홍길동",
-"password": "비밀번호",
-"title": "제목",
-"contents": "내용"
-}
+* json<br/>
+|
+{<br/>
+"username": "홍길동",<br/>
+"password": "비밀번호",<br/>
+"title": "제목",<br/>
+"contents": "내용"<br/>
+}|
 
 * Response:
 200 OK
-* json
-{
-"id": 1,
-"username": "홍길동",
-"password": "비밀번호",
-"title": "제목",
-"contents": "내용”,
-"updateAt": "변경된 시간"
-}
+* json<br/>
+|
+{<br/>
+"id": 1,<br/>
+"username": "홍길동",<br/>
+"password": "비밀번호",<br/>
+"title": "제목",<br/>
+"contents": "내용”,<br/>
+"updateAt": "변경된 시간"<br/>
+}|
+
 ### 4. 일정 삭제
 * URL: /api/schedule/{id}
 * Method: DELETE
