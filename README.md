@@ -41,8 +41,8 @@
 * URL: /api/schedule
 * Method: POST
 * Request Body
-* json<br/>
-  
+* 
+json<br/>
 { <br/>
 "username": "홍길동",<br/>
 "password": "비밀번호",<br/>
@@ -52,7 +52,7 @@
 
 * Response:
 201 Created<br/>
-  json<br/>
+json<br/>
 {<br/>
 "id": 1,<br/>
 "username": "홍길동",<br/>
@@ -68,8 +68,7 @@
 * Method: GET
 * Response:
 200 OK<br/>
-  json<br/>
-
+json<br/>
 [<br/>
 {<br/>
 "id": 1,<br/>
@@ -85,8 +84,7 @@
 * URL: /api/schedule/{id}
 * Method: PUT
 * Request Body:<br/>
-  json<br/>
-
+json<br/>
 {<br/>
 "username": "홍길동",<br/>
 "password": "비밀번호",<br/>
@@ -96,8 +94,7 @@
 
 * Response:
 200 OK<br/>
-  json<br/>
-
+json<br/>
 {<br/>
 "id": 1,<br/>
 "username": "홍길동",<br/>
