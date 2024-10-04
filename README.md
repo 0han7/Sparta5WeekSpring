@@ -113,3 +113,10 @@ json<br/>
 * Method: DELETE
 * Response:
 204 No Content
+
+![image](https://github.com/user-attachments/assets/7efc1f4b-715a-4451-82af-1288de1901bd)
+
+
+## ERM
+![image](https://github.com/user-attachments/assets/33d5e7b4-9d71-41a9-a373-63f6ee542fff)
+
